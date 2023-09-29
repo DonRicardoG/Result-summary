@@ -1,0 +1,69 @@
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(
+    0deg,
+    rgba(46, 43, 233, 1) 2%,
+    rgba(120, 87, 255, 1) 94%
+  );
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.resultContainer h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: hsl(241, 100%, 89%);
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.resultContainer p {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  margin: 1rem 4rem 3rem;
+  font-size: 18px;
+}
+
+.circleScore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  background: rgb(36, 34, 206);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 34, 206, 1) 0%,
+    rgba(78, 33, 202, 1) 100%
+  );
+  height: 200px;
+  width: 200px;
+  border-radius: 10rem;
+  margin: auto;
+}
+
+.circleScore h1,
+h3 {
+  text-align: center;
+}
+
+.circleScore h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  height: 70px;
+  font-size: 6rem;
+  margin: 0 auto;
+}
+
+.circleScore h3 {
+  color: hsl(241, 100%, 89%);
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
