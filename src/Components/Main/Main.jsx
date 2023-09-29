@@ -12,7 +12,7 @@ const Main = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("../../../data.json");
+        const response = await axios.get("/data.json");
         const data = response.data;
         const array = [];
         setGrades(data);
