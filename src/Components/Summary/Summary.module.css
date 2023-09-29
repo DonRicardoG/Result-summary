@@ -1,7 +1,7 @@
 .summaryContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   padding: 2rem;
 }
 
@@ -15,7 +15,7 @@
   height: 50px;
   width: 300px;
   border: 1px solid transparent;
-  margin: 2rem 0 0 0;
+  margin: 2rem auto;
   color: hsl(0, 0%, 100%);
   border-radius: 3rem;
   font-size: 1.5rem;
@@ -50,4 +50,172 @@
 .categoryContainer {
   display: flex;
   gap: 1rem;
+}
+
+@media (min-width: 500px) {
+  .summaryContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .summaryContainer h1 {
+    font-size: 2rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+  .summaryContainer button {
+    background-color: hsl(224, 30%, 27%);
+    height: 50px;
+    width: 300px;
+    border: 1px solid transparent;
+    margin: 2rem 0 0 0;
+    color: hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  .gradesContainer {
+    display: flex;
+    margin: 1rem auto;
+    height: 50px;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 250px;
+  }
+
+  .gradesContainer h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .gradesContainer h2 {
+    color: hsla(225, 30%, 43%, 0.709);
+    font-size: 1.5rem;
+  }
+
+  .gradesContainer h2 span {
+    color: hsl(224, 30%, 27%);
+  }
+
+  .categoryContainer {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .summaryContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .summaryContainer h1 {
+    font-size: 2rem;
+    color: hsl(224, 30%, 27%);
+  }
+
+  .summaryContainer button {
+    background-color: hsl(224, 30%, 27%);
+    height: 50px;
+    width: 300px;
+    border: 1px solid transparent;
+    margin: 2rem 0 0 0;
+    color: hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  .gradesContainer {
+    display: flex;
+    margin: 1rem auto;
+    height: 50px;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 250px;
+  }
+
+  .gradesContainer h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .gradesContainer h2 {
+    color: hsla(225, 30%, 43%, 0.709);
+    font-size: 1.5rem;
+  }
+
+  .gradesContainer h2 span {
+    color: hsl(224, 30%, 27%);
+  }
+
+  .categoryContainer {
+    display: flex;
+    gap: 1rem;
+  }
+
+  @media (min-width: 500px) {
+    .summaryContainer {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      padding: 2rem;
+    }
+
+    .summaryContainer h1 {
+      font-size: 2rem;
+      color: hsl(224, 30%, 27%);
+    }
+
+    .summaryContainer button {
+      background-color: hsl(224, 30%, 27%);
+      height: 50px;
+      width: 300px;
+      border: 1px solid transparent;
+      margin: 2rem 0 0 0;
+      color: hsl(0, 0%, 100%);
+      border-radius: 3rem;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+    }
+    .gradesContainer {
+      display: flex;
+      margin: 1rem auto;
+      height: 50px;
+      border-radius: 1rem;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      justify-content: space-between;
+      width: 250px;
+    }
+
+    .gradesContainer h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .gradesContainer h2 {
+      color: hsla(225, 30%, 43%, 0.709);
+      font-size: 1.5rem;
+    }
+
+    .gradesContainer h2 span {
+      color: hsl(224, 30%, 27%);
+    }
+
+    .categoryContainer {
+      display: flex;
+      gap: 1rem;
+    }
+  }
 }
